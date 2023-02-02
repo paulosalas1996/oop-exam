@@ -29,7 +29,7 @@
         }
 
         function computeSrp(){
-            return $this-> getPrice * 2;
+            return $this-> getPrice()* 2;
         }
         
     
