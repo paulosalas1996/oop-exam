@@ -19,10 +19,10 @@
                     <li><b>Name: </b>' . $item->getName() . '</li>
                     <li><b>Description: </b>' . $item->getDescription() . '</li>
                     <li><b>Price: ₱ </b>' . number_format($item->getPrice(), 2 ). '</li>
-                    <li><b>Dose: </b>' . $item->getDose() . ' mg</li>
+                    <li><b>Dose: </b>' . $item->getDose() . ' mg.git</li>
                     <li><b>Type: </b>' . $item->getType() . '</li>
                     <li><b>Exp Date: </b>' . $item->getExpirationDate() . '</li>
-                    <li><b>SRP: </b>' . $item->computeSRP() . '</li>
+                    <li><b>SRP: </b> ₱ ' . number_format($item->computeSrp(),2).'</li>
                 </ul>
                 <hr>';
             }
